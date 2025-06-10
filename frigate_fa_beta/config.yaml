@@ -1,4 +1,4 @@
-name: Frigate (Full Access) Beta
+name: Frigate (Full Access) Beta hbajc rknpu
 version: 0.16.0-beta3-rk
 breaking_versions:
   - 0.16.0-beta3-rk
@@ -16,7 +16,7 @@ breaking_versions:
   - 0.14.0-rk
 panel_icon: "mdi:cctv"
 panel_title: Frigate
-slug: frigate-fa-beta
+slug: frigate-fa-beta hbajc rknpu
 description: NVR with realtime local object detection for IP cameras
 url: "https://github.com/blakeblackshear/frigate"
 image: ghcr.io/blakeblackshear/frigate
@@ -52,7 +52,19 @@ usb: true
 video: true
 full_access: true
 privileged:
+  - BPF
+  - DAC_READ_SEARCH
+  - IPC_LOCK
+  - NET_ADMIN
+  - NET_RAW
   - PERFMON
+  - SYS_ADMIN
+  - SYS_MODULE
+  - SYS_NICE
+  - SYS_PTRACE
+  - SYS_RAWIO
+  - SYS_RESOURCE
+  - SYS_TIME
 schema:
   plus_api_key: password?
 services:
