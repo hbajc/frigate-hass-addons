@@ -70,7 +70,6 @@ schema:
 services:
   - "mqtt:want"
 arch:
-  - amd64
   - aarch64
 map:
   - "media:rw"
