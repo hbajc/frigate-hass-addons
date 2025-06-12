@@ -1,5 +1,5 @@
 # https://ghfast.top/github.com/AlexxIT/builder/blob/master/builder.sh
-name: go2rtc
+name: go2rtc-rk
 description: 硬件转码Intel（VAAPI）和树莓派（V4L2）
 url: https://ghfast.top/github.com/AlexxIT/go2rtc
 image: alexxit/go2rtc:master-rockchip
