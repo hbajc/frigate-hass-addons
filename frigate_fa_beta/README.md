@@ -4,7 +4,7 @@ Please reference the [release notes](https://github.com/blakeblackshear/frigate/
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armv7 Architecture][armv7-shield]
 
-NVR with realtime local object detection for IP cameras.
+NVR with realtime local object detection for IP cameras. hbajc rknpu
 
 You must create a config file as `frigate.yml` in the root of your Home Assistant configuration directory.
 
