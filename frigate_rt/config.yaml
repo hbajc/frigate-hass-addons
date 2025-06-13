@@ -1,25 +1,13 @@
-name: Frigate (Full Access) Beta
-version: 0.16.0-beta3
+name: frigate stable-rk
+version: stable-rk
 breaking_versions:
-  - 0.16.0-beta3
-  - 0.16.0-beta2
-  - 0.16.0-beta1
-  - 0.15.0
-  - 0.15.0-rc2
-  - 0.15.0-rc1
-  - 0.15.0-beta5
-  - 0.15.0-beta4
-  - 0.15.0-beta3
-  - 0.15.0-beta2
-  - 0.15.0-beta1
-  - 0.14.1
-  - 0.14.0
+  - stable-rk
 panel_icon: "mdi:cctv"
 panel_title: Frigate
-slug: frigate-fa-beta
+slug: frigate stable-rk
 description: NVR具有实时本地对象检测功能，适用于IP摄像头。
 url: "https://ghfast.top/github.com/blakeblackshear/frigate"
-image: ghcr.nju.edu.cn/blakeblackshear/frigate
+image: ghcr.io/blakeblackshear/frigate:stable-rk
 startup: application
 boot: auto
 init: false
