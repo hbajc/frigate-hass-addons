@@ -1,4 +1,4 @@
-# Home Assistant 插件：Frigate（完全访问）Beta
+# Home Assistant 插件：Frigate-rt
 
 请参考 [发布说明](https://github.com/blakeblackshear/frigate/releases) 以获取重大更改。
 
