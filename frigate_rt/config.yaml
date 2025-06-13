@@ -1,11 +1,11 @@
 name: Frigate (rockchip) Beta
-version: 0.16.0-beta3-rk
+version: stable-rk
 panel_icon: "mdi:cctv"
 panel_title: Frigate
-slug: frigate-rockchip
+slug: stable-rk
 description: NVR with realtime local object detection for IP cameras
 url: "https://github.com/blakeblackshear/frigate"
-image: ghcr.io/blakeblackshear/frigate:stable-rk
+image: ghcr.io/blakeblackshear/frigate
 startup: application
 boot: auto
 init: false
