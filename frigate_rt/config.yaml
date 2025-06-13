@@ -1,4 +1,4 @@
-name: Frigate (rknn) Beta
+name: Frigate (rockchip) Beta
 version: 0.16.0-beta3-rk
 breaking_versions:
   - 0.16.0-beta3-rk
@@ -16,7 +16,7 @@ breaking_versions:
   - 0.14.0-rk
 panel_icon: "mdi:cctv"
 panel_title: Frigate
-slug: frigate-faa-beta
+slug: frigate-rockchip
 description: NVR with realtime local object detection for IP cameras
 url: "https://github.com/blakeblackshear/frigate"
 image: ghcr.io/blakeblackshear/frigate
