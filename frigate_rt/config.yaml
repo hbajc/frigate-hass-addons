@@ -38,7 +38,7 @@ ports_description:
   5000/tcp: Web interface (Not required for Hass.io Ingress)
   1984/tcp: go2rtc API
   1935/tcp: RTMP streams
-host_network: false
+host_network: true
 video: true
 tmpfs: true
 host_ipc: true
